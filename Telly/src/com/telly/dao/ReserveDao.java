@@ -22,9 +22,13 @@ public class ReserveDao {
 	@Autowired
 	private SessionFactory sessionFactory;
 
+
+	
+
 	public Session session() {
 		return sessionFactory.getCurrentSession();
 	}
+
 	
 	
 	
